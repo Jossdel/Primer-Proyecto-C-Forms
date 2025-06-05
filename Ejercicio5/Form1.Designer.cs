@@ -28,76 +28,80 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.button1 = new System.Windows.Forms.Button();
+            this.check1 = new System.Windows.Forms.RadioButton();
+            this.check2 = new System.Windows.Forms.RadioButton();
+            this.check3 = new System.Windows.Forms.RadioButton();
+            this.buttonAccept = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // radioButton1
+            // check1
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(299, 87);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(180, 33);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "radioButton1";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            this.check1.AutoSize = true;
+            this.check1.Location = new System.Drawing.Point(204, 109);
+            this.check1.Name = "check1";
+            this.check1.Size = new System.Drawing.Size(169, 33);
+            this.check1.TabIndex = 0;
+            this.check1.TabStop = true;
+            this.check1.Text = "First Option";
+            this.check1.UseVisualStyleBackColor = true;
+            this.check1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
-            // radioButton2
+            // check2
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(299, 135);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(180, 33);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "radioButton2";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.check2.AutoSize = true;
+            this.check2.Location = new System.Drawing.Point(204, 158);
+            this.check2.Name = "check2";
+            this.check2.Size = new System.Drawing.Size(204, 33);
+            this.check2.TabIndex = 1;
+            this.check2.TabStop = true;
+            this.check2.Text = "Secund Option";
+            this.check2.UseVisualStyleBackColor = true;
+            this.check2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
-            // radioButton3
+            // check3
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(299, 184);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(180, 33);
-            this.radioButton3.TabIndex = 2;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "radioButton3";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.check3.AutoSize = true;
+            this.check3.Location = new System.Drawing.Point(204, 208);
+            this.check3.Name = "check3";
+            this.check3.Size = new System.Drawing.Size(179, 33);
+            this.check3.TabIndex = 2;
+            this.check3.TabStop = true;
+            this.check3.Text = "Third Option";
+            this.check3.UseVisualStyleBackColor = true;
+            this.check3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
-            // button1
+            // buttonAccept
             // 
-            this.button1.Location = new System.Drawing.Point(309, 327);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(180, 50);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Accept";
-            this.button1.UseVisualStyleBackColor = true;
+            this.buttonAccept.Location = new System.Drawing.Point(175, 402);
+            this.buttonAccept.Name = "buttonAccept";
+            this.buttonAccept.Size = new System.Drawing.Size(290, 50);
+            this.buttonAccept.TabIndex = 3;
+            this.buttonAccept.Text = "Accept";
+            this.buttonAccept.UseVisualStyleBackColor = true;
+            this.buttonAccept.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(350, 244);
+            this.label1.Location = new System.Drawing.Point(116, 353);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 29);
+            this.label1.Size = new System.Drawing.Size(173, 29);
             this.label1.TabIndex = 4;
-            this.label1.Text = "label1";
+            this.label1.Text = "Select a option";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.Aquamarine;
+            this.ClientSize = new System.Drawing.Size(657, 527);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.radioButton3);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.buttonAccept);
+            this.Controls.Add(this.check3);
+            this.Controls.Add(this.check2);
+            this.Controls.Add(this.check1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -108,10 +112,10 @@
 
         #endregion
 
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.RadioButton check1;
+        private System.Windows.Forms.RadioButton check2;
+        private System.Windows.Forms.RadioButton check3;
+        private System.Windows.Forms.Button buttonAccept;
         private System.Windows.Forms.Label label1;
     }
 }
