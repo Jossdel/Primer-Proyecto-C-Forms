@@ -24,7 +24,7 @@ namespace Ejercicio11
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Text = fecha.Text;
+            label1.Text = "La fecha que ha seleccionado es : "+fecha.Text;
         }
 
         private void fecha_ValueChanged(object sender, EventArgs e)

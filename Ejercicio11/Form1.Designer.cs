@@ -35,17 +35,17 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(176, 374);
+            this.button1.Location = new System.Drawing.Point(155, 575);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(326, 67);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "Seleccionar";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // fecha
             // 
-            this.fecha.Location = new System.Drawing.Point(106, 240);
+            this.fecha.Location = new System.Drawing.Point(298, 286);
             this.fecha.Name = "fecha";
             this.fecha.Size = new System.Drawing.Size(486, 35);
             this.fecha.TabIndex = 1;
@@ -54,7 +54,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(171, 321);
+            this.label1.Location = new System.Drawing.Point(150, 543);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(252, 29);
             this.label1.TabIndex = 2;
@@ -65,7 +65,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(746, 515);
+            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.ClientSize = new System.Drawing.Size(1069, 671);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.fecha);
             this.Controls.Add(this.button1);

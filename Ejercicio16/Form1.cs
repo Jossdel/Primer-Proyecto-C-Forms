@@ -114,7 +114,7 @@ namespace Ejercicio16
         {
             //Numero 0
 
-                textBox1.Text = textBox1.Text + "0";
+                textBox1.Text = textBox1.Text + "";
             
         }
 

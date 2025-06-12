@@ -92,9 +92,9 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(126, 431);
+            this.button5.Location = new System.Drawing.Point(126, 430);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(111, 99);
+            this.button5.Size = new System.Drawing.Size(111, 100);
             this.button5.TabIndex = 4;
             this.button5.Text = "5";
             this.button5.UseVisualStyleBackColor = true;
@@ -102,9 +102,9 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(243, 432);
+            this.button6.Location = new System.Drawing.Point(243, 428);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(114, 98);
+            this.button6.Size = new System.Drawing.Size(114, 102);
             this.button6.TabIndex = 5;
             this.button6.Text = "6";
             this.button6.UseVisualStyleBackColor = true;
@@ -202,9 +202,9 @@
             // 
             // buttonDividir
             // 
-            this.buttonDividir.Location = new System.Drawing.Point(363, 432);
+            this.buttonDividir.Location = new System.Drawing.Point(363, 429);
             this.buttonDividir.Name = "buttonDividir";
-            this.buttonDividir.Size = new System.Drawing.Size(110, 98);
+            this.buttonDividir.Size = new System.Drawing.Size(110, 101);
             this.buttonDividir.TabIndex = 16;
             this.buttonDividir.Text = "/";
             this.buttonDividir.UseVisualStyleBackColor = true;

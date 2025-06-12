@@ -36,7 +36,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(798, 201);
+            this.button1.Location = new System.Drawing.Point(672, 212);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(197, 57);
             this.button1.TabIndex = 0;
@@ -48,7 +48,7 @@
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 29;
-            this.listBox1.Location = new System.Drawing.Point(270, 468);
+            this.listBox1.Location = new System.Drawing.Point(127, 358);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(505, 178);
             this.listBox1.TabIndex = 1;
@@ -56,7 +56,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(270, 201);
+            this.textBox1.Location = new System.Drawing.Point(127, 212);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(505, 57);
@@ -67,7 +67,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(264, 163);
+            this.label1.Location = new System.Drawing.Point(242, 165);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(251, 35);
             this.label1.TabIndex = 3;
@@ -78,7 +78,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Turquoise;
-            this.ClientSize = new System.Drawing.Size(1327, 946);
+            this.ClientSize = new System.Drawing.Size(941, 721);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.listBox1);
